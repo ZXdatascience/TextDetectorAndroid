@@ -5,6 +5,4 @@ Here are some examples:
 <img src="test1.jpg" width="200">
 <img src="test3.jpg" width="200">
 <img src="test4.jpg" width="200">
-![alt text](https://github.com/ZXdatascience/TextDetectorAndroid/blob/master/test1.jpg =250x)
-![alt text](https://github.com/ZXdatascience/TextDetectorAndroid/blob/master/test3.jpg =250x)
-![alt text](https://github.com/ZXdatascience/TextDetectorAndroid/blob/master/test4.jpg =250x)
+
