@@ -1,7 +1,7 @@
 # TextDetectorAndroid
 This is a Android demo of the text detection based EAST((https://arxiv.org/abs/1704.03155v2)) and MobileNetV2(https://arxiv.org/abs/1801.04381)
 
-The pretrained static model is located at app/src/main/assets/optimized_expanded_convs.pb
+The pretrained static model is located at app/src/main/assets/rounded_expanded_convs.pb
 
 The model is small in size because of the modification of EAST using residual bottleneck layer from MobileNetV2.
 
