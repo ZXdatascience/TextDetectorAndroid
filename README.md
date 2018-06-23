@@ -10,7 +10,9 @@ https://github.com/ZXdatascience/EAST
 
 Here are some examples:
 
-<img src="test1.jpg" width="200">
-<img src="test3.jpg" width="200">
-<img src="test4.jpg" width="200">
+<p float="left">
+  <img src="test1.jpg" width="200">
+  <img src="test3.jpg" width="200">
+  <img src="test4.jpg" width="200">
+</p>
 
