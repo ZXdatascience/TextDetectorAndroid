@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class Detector {
 
     private TensorFlowInferenceInterface inferenceInterface;
-    private static final String MODEL_FILE = "file:///android_asset/optimized_expanded_convs.pb";
+    private static final String MODEL_FILE = "file:///android_asset/rounded_expanded_convs.pb";
     private static final String INPUT_NODE = "input_images";
     private static final String OUTPUT_NODE_GEOMETRY = "feature_fusion/concat_3";
     private static final String OUTPUT_NODE_SCORE = "feature_fusion/Conv_1/Sigmoid";

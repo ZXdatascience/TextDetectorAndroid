@@ -18,7 +18,7 @@ import java.io.IOException;
  * Created by xu on 23/02/18.
  */
 
-public class MainActivity extends AppCompatActivity implements ImageInputHelper.ImageActionListener, View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements ImageInputHelper.ImageActionListener {
 
     private ImageInputHelper imageInputHelper;
     private ZoomageView demoView;
@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity implements ImageInputHelper.
         });
 
 
-        findViewById(R.id.menuLanguage).setOnClickListener(this);
-        findViewById(R.id.targetLanuage).setOnClickListener(this);
     }
 
     @Override
@@ -105,15 +103,6 @@ public class MainActivity extends AppCompatActivity implements ImageInputHelper.
         }
     }
 
-    @Override
-    public void onClick(View view) {
-        if (view.getId() == R.id.menuLanguage) {
-            showMenuLanguageOptions();
-        }
-        else {
-            showTargetLanuageOptions();
-        }
-    }
 
     private void showMenuLanguageOptions() {
         CharSequence[] options = new CharSequence[]{"English", "French", "Chinese", "Japanese"};
